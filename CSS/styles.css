@@ -1,0 +1,139 @@
+  /****************** the body and the lines on homepage *********************/
+body {
+    background-color: #90B77D;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.Right-Line {
+    position: absolute;
+    right: 0px;
+    bottom: 253px;
+}
+.Left-Line {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+  /****************** top of homepage and headings *********************/
+h1 {
+    font-size: 60px;
+    margin-top: 0;
+    width: 10%;
+    margin: 0 auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.top-container {
+    background-color: #B6E2A1;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100;
+}
+  /****************** Middle part of homepage *********************/
+.middle-container {
+    padding-top: 50px;
+}
+.profile {
+    padding-bottom: 10px;
+}
+.bottom-container {
+    padding-top: 30px;
+    padding-bottom:20px;
+    background-color: #B6E2A1;
+}
+.bottom-container-social {
+    padding-top: 30px;
+    padding-bottom:20px;
+    background-color: #B6E2A1;
+    margin-top: 165px;
+}
+  /********************* the underline of programming ***********************/
+.pro {
+    text-decoration: underline;
+}
+  /************************** Navigation bar *****************************/
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+.top-nav > a {
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.9rem;
+    padding: 5em;
+    padding-bottom: 6px;
+ }
+
+ul {
+    z-index: 2;
+    position: fixed;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #90B77D;
+    right: 0;
+    left: 0;
+    text-align: center;
+   }
+
+li {
+    float: left;
+    
+}
+
+li a {
+    text-align: center;
+    padding: 10px 50px;
+}
+
+li a:hover {
+    background-color: #90B77D;
+}
+
+a.active {
+    background-color: #B6E2A1;
+    color: #333;
+}
+
+  .top-nav > a:hover {
+    background-color: #B6E2A1;
+    color: black;
+  }
+  .top-nav > a.active {
+    background-color: #B6E2A1;
+    color: #333;
+  }
+  /*********************** The div with the text written in work, social and about ********************/
+.Text {
+    background-color: #B6E2A1;
+    padding-top: 100px;
+    padding-bottom: 75px;
+}
+  /*********************** hr line ********************/
+.email{
+    margin-bottom: 50px;
+}
+hr {
+    width: 10%;
+    color: #B6E2A1;
+    border-style: dotted;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-width: 0 0 15px 0;
+}
+.hr-dark {
+    width: 10%;
+    color: #90B77D;
+    border-style: dotted;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-width: 0 0 15px 0;
+}
